@@ -1,0 +1,16 @@
+MO Program_counter NULL Program_counter.v vlg6B/_program__counter.bin 1642953912
+MO Data_memory NULL ipcore_dir/Data_memory.v vlg2A/_data__memory.bin 1642953912
+MO sign_extender NULL sign_extender.v vlg13/sign__extender.bin 1642935220
+MO bcd_to_7seg_converter NULL bcd_to_7seg_converter.v vlg57/bcd__to__7seg__converter.bin 1642953912
+MO Register_File NULL Register_File.v vlg3C/_register___file.bin 1642953912
+MO INST_MEM NULL ipcore_dir/INST_MEM.v vlg64/_i_n_s_t___m_e_m.bin 1642953912
+MO counter NULL counter.v vlg10/counter.bin 1642953912
+MO ALU_Control NULL ALU_Control.v vlg5E/_a_l_u___control.bin 1642953912
+MO my_BCD_converter NULL my_BCD_converter.v vlg1D/my___b_c_d__converter.bin 1642953912
+MO Instruction_memory NULL Instruction_memory.v vlg42/_instruction__memory.bin 1642617309
+MO Binary_to_7seg NULL Binary_to_7seg.v vlg6C/_binary__to__7seg.bin 1642953912
+MO Main_module NULL Main_module.v vlg72/_main__module.bin 1642953912
+MO counter_in_secs NULL counter_in_secs.v vlg0F/counter__in__secs.bin 1642800106
+MO mux NULL mux.v vlg66/mux.bin 1642953912
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1642953912
+MO mux_block NULL mux_block.v vlg70/mux__block.bin 1642953912

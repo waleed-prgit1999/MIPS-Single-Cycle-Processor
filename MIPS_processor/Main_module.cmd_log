@@ -1,0 +1,160 @@
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/MIPS_processor/Main_module.xst" -ofn "C:/Users/psf/Desktop/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 
+xst -intstyle ise -ifn "G:/MIPS_processor/Main_module.xst" -ofn "G:/MIPS_processor/Main_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Main_module.ucf -p xc3s500e-fg320-4 Main_module.ngc Main_module.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Main_module_map.ncd Main_module.ngd Main_module.pcf 
+par -w -intstyle ise -ol high -t 1 Main_module_map.ncd Main_module.ncd Main_module.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Main_module.twx Main_module.ncd -o Main_module.twr Main_module.pcf -ucf Main_module.ucf 
+bitgen -intstyle ise -f Main_module.ut Main_module.ncd 

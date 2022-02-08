@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Jan 22 02:04:23 2022
+# Process ID: 10292
+# Log file: C:/Users/psf/Desktop/MIPS_processor/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/psf/Desktop/MIPS_processor/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/psf/Desktop/MIPS_processor/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin K17 [get_ports {add[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {add[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {add[2]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {add[3]}]
+endgroup
+startgroup
+set_property package_pin R17 [get_ports {add[4]}]
+endgroup
+set_property package_pin "" [get_ports [list  clock]]
+startgroup
+set_property package_pin G18 [get_ports dis]
+endgroup
+save_constraints

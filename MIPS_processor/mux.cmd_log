@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/mux.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/mux.syr" 

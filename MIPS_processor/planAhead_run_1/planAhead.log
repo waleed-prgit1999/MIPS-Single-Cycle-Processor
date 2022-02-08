@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Jan 22 02:00:56 2022
+# Process ID: 13176
+# Log file: C:/Users/psf/Desktop/MIPS_processor/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/psf/Desktop/MIPS_processor/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/psf/Desktop/MIPS_processor/pa.fromHdl.tcl
+# create_project -name MIPS_processor -dir "C:/Users/psf/Desktop/MIPS_processor/planAhead_run_1" -part xc3s500efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main_module.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/psf/Desktop/MIPS_processor/Main_module.ucf' to fileset 'constrs_1'
+# add_files [list {ipcore_dir/INST_MEM.ngc}]
+# set hdlfile [add_files [list {my_BCD_converter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {counter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bcd_to_7seg_converter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Register_File.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Program_counter.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mux_block.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mux.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/INST_MEM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {counter_in_secs.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Binary_to_7seg.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU_Control.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main_module.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Main_module $srcset
+# add_files [list {Main_module.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/INST_MEM.ncf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/my_BCD_converter.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/counter.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/bcd_to_7seg_converter.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/Register_File.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/Program_counter.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/mux_block.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/mux.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/ipcore_dir/INST_MEM.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/counter_in_secs.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/Binary_to_7seg.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/ALU_Control.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/ALU.v" into library work
+Analyzing Verilog file "C:/Users/psf/Desktop/MIPS_processor/Main_module.v" into library work
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design INST_MEM.ngc ...
+WARNING:NetListWriters:298 - No output is written to INST_MEM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file INST_MEM.edif ...
+ngc2edif: Total memory usage is 4310308 kilobytes
+
+Reading core file 'C:/Users/psf/Desktop/MIPS_processor/ipcore_dir/INST_MEM.ngc' for (cell view 'INST_MEM', library 'work', file 'INST_MEM.v')
+Parsing EDIF File [./.Xil/PlanAhead-13176-DESKTOP-D5PEIB9/ngc2edif/INST_MEM.edif]
+Finished Parsing EDIF File [./.Xil/PlanAhead-13176-DESKTOP-D5PEIB9/ngc2edif/INST_MEM.edif]
+INFO: [Designutils 20-910] Reading macro library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library G:/Xilinx_14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/psf/Desktop/MIPS_processor/Main_module.ucf]
+Finished Parsing UCF File [C:/Users/psf/Desktop/MIPS_processor/Main_module.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 68595214
+open_rtl_design: Time (s): elapsed = 00:00:17 . Memory (MB): peak = 800.906 ; gain = 127.082
+update_compile_order -fileset sim_1
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/psf/Desktop/MIPS_processor\planAhead_pid13176.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Jan 22 02:02:47 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

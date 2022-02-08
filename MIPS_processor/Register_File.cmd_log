@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 "Register_File.ngc" Register_File.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Register_File_map.ncd Register_File.ngd Register_File.pcf 
+par -w -intstyle ise -ol high -t 1 Register_File_map.ncd Register_File.ncd Register_File.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Register_File.twx Register_File.ncd -o Register_File.twr Register_File.pcf 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.xst" -ofn "C:/Users/psf/Desktop/Sem 7/Digital System Design/Lab/haswal-labs/MIPS_processor/Register_File.syr" 

@@ -1,0 +1,23 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "control[0]" LOC = F17;
+NET "control[1]" LOC = H17;
+NET "control[2]" LOC = C18;
+NET "control[3]" LOC = F15;
+NET "data[0]" LOC = H14;
+NET "data[1]" LOC = J17;
+NET "data[2]" LOC = G14;
+NET "data[3]" LOC = D16;
+NET "data[4]" LOC = D17;
+NET "data[5]" LOC = F18;
+NET "data[6]" LOC = L18;
+NET "add[0]" LOC = K17;
+NET "add[1]" LOC = L14;
+NET "add[2]" LOC = L13;
+NET "add[3]" LOC = N17;
+NET "add[4]" LOC = R17;
+NET "dis" LOC = G18;
+NET "reset" LOC = B18;
+NET "clock" LOC = B8;
+NET "tc" LOC = J14;
